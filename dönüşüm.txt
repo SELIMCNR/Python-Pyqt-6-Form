@@ -1,0 +1,2 @@
+PS C:\Users\btk02\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts> .\pyuic6 C:\Users\btk02\OneDrive\Desktop\dersler\Python-Form\Projeler\Project2\main.ui -o C:\Users\btk02\OneDrive\Desktop\dersler\Python-Form\Projeler\Project2\py4.py
+PS C:\Users\btk02\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts>
