@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>degrade1.png</file>
+  </qresource>
+</RCC>
