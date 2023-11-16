@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>60</y>
+      <width>191</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>120</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>180</y>
+      <width>181</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuKategoriler">
+    <property name="title">
+     <string>Kategoriler</string>
+    </property>
+    <widget class="QMenu" name="menuKategori1">
+     <property name="title">
+      <string>Kategori1</string>
+     </property>
+     <addaction name="actionKategori11"/>
+     <addaction name="actionKategori12"/>
+     <addaction name="actionKategori13"/>
+    </widget>
+    <widget class="QMenu" name="menuKategori2">
+     <property name="title">
+      <string>Kategori2</string>
+     </property>
+     <addaction name="actionKategori21"/>
+     <addaction name="actionKategori22"/>
+     <addaction name="actionKategori23"/>
+    </widget>
+    <widget class="QMenu" name="menuKategori3">
+     <property name="title">
+      <string>Kategori3</string>
+     </property>
+     <addaction name="actionKategori31"/>
+     <addaction name="actionKategori32"/>
+     <addaction name="actionKategori33"/>
+    </widget>
+    <addaction name="menuKategori1"/>
+    <addaction name="menuKategori2"/>
+    <addaction name="menuKategori3"/>
+    <addaction name="separator"/>
+    <addaction name="actionYen"/>
+   </widget>
+   <widget class="QMenu" name="menuRenkler">
+    <property name="title">
+     <string>Renkler</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menu_e_itler">
+    <property name="title">
+     <string>çeşitler</string>
+    </property>
+   </widget>
+   <addaction name="menuKategoriler"/>
+   <addaction name="menuRenkler"/>
+   <addaction name="menu_e_itler"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionKategori11">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../../../../Downloads/check.png</normaloff>../../../../../../Downloads/check.png</iconset>
+   </property>
+   <property name="text">
+    <string>Kategori 1.1</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+D</string>
+   </property>
+  </action>
+  <action name="actionKategori12">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../../../../Downloads/check.png</normaloff>../../../../../../Downloads/check.png</iconset>
+   </property>
+   <property name="text">
+    <string>Kategori1.2</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+E</string>
+   </property>
+  </action>
+  <action name="actionKategori13">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../../../../Downloads/check.png</normaloff>../../../../../../Downloads/check.png</iconset>
+   </property>
+   <property name="text">
+    <string>Kategori1.3</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+E</string>
+   </property>
+  </action>
+  <action name="actionKategori21">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../../../../Downloads/check.png</normaloff>../../../../../../Downloads/check.png</iconset>
+   </property>
+   <property name="text">
+    <string>Kategori2.1</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+F</string>
+   </property>
+  </action>
+  <action name="actionKategori22">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../../../../Downloads/check.png</normaloff>../../../../../../Downloads/check.png</iconset>
+   </property>
+   <property name="text">
+    <string>Kategori2.2</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+G</string>
+   </property>
+  </action>
+  <action name="actionKategori23">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../../../../Downloads/check.png</normaloff>../../../../../../Downloads/check.png</iconset>
+   </property>
+   <property name="text">
+    <string>Kategori2.3</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+B</string>
+   </property>
+  </action>
+  <action name="actionKategori31">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../../../../Downloads/check.png</normaloff>../../../../../../Downloads/check.png</iconset>
+   </property>
+   <property name="text">
+    <string>Kategori3.1</string>
+   </property>
+  </action>
+  <action name="actionKategori32">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../../../../Downloads/check.png</normaloff>../../../../../../Downloads/check.png</iconset>
+   </property>
+   <property name="text">
+    <string>Kategori3.2</string>
+   </property>
+  </action>
+  <action name="actionKategori33">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../../../../Downloads/check.png</normaloff>../../../../../../Downloads/check.png</iconset>
+   </property>
+   <property name="text">
+    <string>Kategori3.3</string>
+   </property>
+  </action>
+  <action name="actionYen">
+   <property name="text">
+    <string>Yeni Kategoriler</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
